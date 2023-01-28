@@ -57,10 +57,12 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
       right: isOpenMenu ? .02 * screenWidth : 0,
       duration: duration,
       child: Material(
+        color: Colors.teal,
         borderRadius:
             isOpenMenu ? BorderRadius.circular(20) : BorderRadius.circular(0),
         elevation: 20,
         child: Container(
+          
           padding: const EdgeInsets.only(left: 5, right: 5, top: 5, bottom: 5),
           child: Column(
             children: [
